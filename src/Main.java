@@ -8,15 +8,24 @@ public class Main {
         //divide(1,0);
         //readFromFile("file.txt");
         //getElementAtIndex(new int[] {5, 3, 5, 3},7);
-        int[] arr1 = {1, 2, 3, 4};
-        int[] arr2 = {4, 5, 6};
+//        int[] arr1 = {1, 2, 3, 4};
+//        int[] arr2 = {4, 5, 6};
 
-        try {
-            int[] diffArr = diffArrays(arr1, arr2);
-            System.out.println(Arrays.toString(diffArr));
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+
+//        try {
+//            int[] diffArr = diffArrays(arr1, arr2);
+//            System.out.println(Arrays.toString(diffArr));
+//        } catch (IllegalArgumentException e) {
+//            System.out.println(e.getMessage());
+//        }
+
+
+//        float number = FractionalNumberInput.readFractionalNumber();
+//        System.out.println("Результат: " + number);
+
+//        FractionalNumberInput.exercise3();
+
+        FractionalNumberInput.EmptyStringExceptionExample();
 
     }
     // Этот метод выдает значение, когда значение равно нулю.
